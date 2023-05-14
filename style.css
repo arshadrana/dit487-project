@@ -1,0 +1,97 @@
+*{
+   margin: 0;
+   border: 0;
+   outline: 0;
+   padding: 0;
+   text-decoration: none;
+}
+body{
+    background-color: rgb(79, 143, 151);}
+#admin{
+        font-size: 20px;
+    padding: 30 px;
+    color: blue;
+    margin: 15%;
+    width: ;
+    text-align: center;
+}
+#admin h1{
+    font-size: 50px;
+    line-height: 250%;
+    text-align: center;
+    font-family: fantasy;
+}
+#admin img{
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+form{
+    margin-top: 28px;
+}
+input,label{display:inline;}
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+input{
+    font-family: monospace;
+    font-size: 90;
+    padding: 10px;background-color: aqua;
+    border: 2px solid;
+    color: brown;
+}
+input::placeholder{
+    color: blueviolet;
+}
+input [type="submit"] {
+    width: 50px;
+    margin: 20px auto;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-transform:uppercase ;
+}
+input[type="submit"]:hover{
+    background-color: azure;
+    color: cadetblue;
+       
+}
+.buton:hover{
+    transition:ease-in-out 1s;
+    width: 180px;
+
+}
+.pg{
+   margin-top: 10 px; 
+   font-size: 20px;
+   line-height: 25px;
+   font-family: monospace;
+}
+h3,b{
+    font-size: 40px; 
+}
+.pg a{
+    font-size: 35px;
+    text-transform: capitalize;
+    color: brown;
+}
+.pg a:hover{
+    color: #000;
+    
+}
+.pg a:active{
+    color: blue; 
+    
+}
+.buton{
+    color:brown;
+    font-family: fantasy;
+    font-size: 18px;
+}
+.pm{
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+
+}
+
